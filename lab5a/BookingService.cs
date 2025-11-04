@@ -32,7 +32,7 @@ namespace lab5a
         }
         public List<Booking> GetAllBookings()
         {
-            return new List<Booking>(_bookings); // повертаємо копію списку
+            return new List<Booking>(_bookings); 
         }
     }
 }
